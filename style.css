@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+hr{
+	margin-bottom: 20px;
+	
+}
+.form_body{
+	max-width: 700px;
+	width:100%;
+	background: #2196F3;
+	margin:50px auto;
+	padding: 50px;
+}
+.form_wrapper{
+	max-width:550px;
+	width:100%;
+	background: #fff;
+	padding: 10px;
+	margin:0 auto;
+	border-radius: 5px;
+	box-shadow: 1px 1px 14px 1px #57606f;
+}
+.form_header h2{
+	font-size: 45px;
+	font-weight: 900;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+.form_title p{
+	font-size: 14px;
+	font-weight:600;
+    color:#636e72;
+    margin-bottom: 40px;
+}
+.form_controd input[type=text] {
+  width:100%;
+  background: #dcdde1;
+  border:none;
+  outline: none;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  
+}
+.form_controd input[type=text]:focus{
+	box-shadow: 1px 1px 10px 1px  #57606f;
+    transition:all 0.5s ease;
+}
+.form_controd input::placeholder{
+	font-size:18px;
+	font-weight: 300;
+	color:#535c68;
+}
+.form_controd input[type=email] {
+  width:100%;
+  background: #dcdde1;
+  border:none;
+  outline: none;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.form_controd input[type=email]:focus{
+	box-shadow: 1px 1px 10px 1px  #57606f;
+    transition:all 0.5s ease;
+}
+.form_controd input::placeholder{
+	font-size:18px;
+	font-weight: 300;
+	color:#535c68;
+}
+.form_controd input[type=password] {
+  width:100%;
+  background: #dcdde1;
+  border:none;
+  outline: none;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.form_controd input[type=password]:focus{
+	box-shadow: 1px 1px 10px 1px  #57606f;
+    transition:all 0.5s ease;
+}
+.form_controd input::placeholder{
+	font-size:18px;
+	font-weight: 300;
+	color:#535c68;
+}
+.selected_bar{
+	position: relative;
+	width:100%;
+	padding: 15px;
+	border-radius: 5px;
+	background: #dcdde1;
+	border:none;
+	outline: none;
+	font-size:18px;
+	font-weight: 300;
+	color:#535c68;
+	margin-bottom: 20px;
+}
+.selected_bar:focus{
+	box-shadow: 1px 1px 10px 1px  #57606f;
+    transition:all 0.5s ease;
+}
+
+.cheack_box{
+	display: inline;
+	float: left;
+	margin-right:15px;
+	
+
+}
+.cheack_box input[type=checkbox]{
+	width:20px;
+	height: 20px;
+}
+.cheack_box input[type=checkbox]:focus{
+	box-shadow: 1px 1px 10px 1px  #57606f;
+    transition:all 0.5s ease;
+}
+.check_title{
+	margin-bottom: 20px;
+}
+.check_title p{
+	color: #535c68;
+}
+.form_controd input[type=button]{
+	background: #2196F3;
+	color:#fff;
+	border:none;
+	outline:none;
+	padding: 10px 50px;
+	font-size: 22px;
+	font-weight: 600;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+.form_controd input[type=button]:focus{
+	box-shadow: 1px 1px 10px 1px  #57606f;
+    transition:all 0.5s ease;
+}
